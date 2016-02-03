@@ -82,7 +82,7 @@ struct FlickrAPI {
             
             var finalPhotos = [Photo]()
             for photoJSON in photosArray {
-                if let photo = photoFromJSONObect(photoJSON) {
+                if let photo = photoFromJSONObject(photoJSON) {
                     finalPhotos.append(photo)
                 }
             }
@@ -99,7 +99,7 @@ struct FlickrAPI {
     }
     
     // parse JSON data into Photo instance
-    private static func photoFromJSONObect(json: [String : AnyObject]) -> Photo? {
+    private static func photoFromJSONObject(json: [String : AnyObject]) -> Photo? {
         guard let
             photoID = json["id"] as? String,
             title = json["title"] as? String,

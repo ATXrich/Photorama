@@ -65,10 +65,10 @@
 				AB6971B81C6060B400C342E9 /* Photo.swift */,
 				AB6971B41C60505600C342E9 /* FlickrAPI.swift */,
 				AB6971A41C604E7000C342E9 /* Main.storyboard */,
-				AB6971A71C604E7000C342E9 /* Assets.xcassets */,
 				AB6971A01C604E7000C342E9 /* AppDelegate.swift */,
 				AB6971A91C604E7000C342E9 /* LaunchScreen.storyboard */,
 				AB6971AC1C604E7000C342E9 /* Info.plist */,
+				AB6971A71C604E7000C342E9 /* Assets.xcassets */,
 			);
 			path = Photorama;
 			sourceTree = "<group>";
